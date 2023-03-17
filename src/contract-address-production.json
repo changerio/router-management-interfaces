@@ -1,0 +1,37 @@
+{
+  "mainnet": {
+    "SwapRouterV1": "0xd1aea7862de63b494a1cc5d037a02bf328d234cb",
+    "ActionHandler": "0xc85fb1dea949a86808e894ee7cc7942c9678082e",
+    "ProxyAdmin": "0x25AAA82223405FFbCADd4b428B6c6A9BFf542F82",
+    "CompensationVault-logic-1": "0xf33200132d840fee04f84a7a9d3c3e6aea311b3f",
+    "CompensationVault": "0x2f3e1531711e14fdec52b3a9fb937f59c0dce1e3",
+    "ChangerSwapRouterV2": "0xa5369b634067397785495ef81f662a675eacfa0c",
+    "CompensationVault-logic-2": "0x0962addb31e74b684508f5d617883426da6af93c",
+    "ChangerSwapRouterV3Logic-1": "0x052eaec3df5a0a81c80a99b4220048d7c6eda9fe",
+    "ChangerSwapRouterV3Proxy": "0x1e9cb34dde1b36536243c571cbf887b7c9862773",
+    "ChangerContractAdminMultisig": "0x0716c475930B725803607a331ee8131c879D6f90",
+    "ChangerVaultProxyAdmin": "0x0b8c5bd0b47dc92d42651e469afdca7ceaeb1f99",
+    "ChangerVault@0.0.1": "0x996f9e0c9ceb6036810d95f3383ae22278e7930a",
+    "ChangerVaultProxy": "0xe91b845f9b401da97f0cf62354fa11faf233280e"
+  },
+  "polygon": {
+    "ActionHandler": "0x849582187d6b0119590cfbac62bfa4168dda6825",
+    "ProxyAdmin": "0xf74bdf0ae6dba27817ae62f9a78318b3e871b79b",
+    "ChangerContractAdminMultisig": "0xefA40eE2Ef3dD130bA08CA32935174712c9Cf9ad",
+    "ChangerSwapRouterV3Logic-1": "0x384d1306ed4905202b4b0984669c692612d0503e",
+    "ChangerSwapRouterV3Proxy": "0x1db97459da385cCc8ADb18d91A52008320621bC5"
+  },
+  "bsc": {
+    "ActionHandler": "0x849582187d6b0119590cfbac62bfa4168dda6825",
+    "ProxyAdmin": "0xf74bdf0ae6dba27817ae62f9a78318b3e871b79b",
+    "ChangerContractAdminMultisig": "0x13be0ABDCDad5b58A68EA0339273a1e363e36e6E",
+    "ChangerSwapRouterV3Logic-1": "0x384d1306ed4905202b4b0984669c692612d0503e",
+    "ChangerSwapRouterV3Proxy": "0x1db97459da385cCc8ADb18d91A52008320621bC5"
+  },
+  "goerli": {
+    "TEST_CONTRACT": "0x2abDDB569df0D58CC8f5c97664aB5d95d43192C9",
+    "TEST_CONTRACT_2": "0x384D1306Ed4905202b4b0984669c692612D0503e",
+    "ChangerContractAdminMultisig": "0x8e05b0f41796dacC37eA39aFCca6aEC05bF61454",
+    "TEST_MULTISIG_2": "0xCe9205Eef8334D8Ffee4A08C578477CfA00F691a"
+  }
+}
