@@ -1,6 +1,5 @@
-import { safeServiceClientAtom, signerAtom } from "@/atom";
+import { safeServiceClientAtom } from "@/atom";
 import { NetworkDataType } from "@/lib/constants";
-import { GnosisSafeL2__factory } from "@/typechain";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SafeMultisigTransactionResponse } from "@safe-global/safe-core-sdk-types";
