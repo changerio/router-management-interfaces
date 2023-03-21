@@ -1,4 +1,4 @@
-export const DEV = true; // TODO: use env bar
+export const DEV = process.env.NODE_ENV === "development";
 
 export interface NetworkDataType {
   chainId: number;

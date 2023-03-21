@@ -2,10 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://changerio.github.io/router-management-interfaces",
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_ENV=development next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=development next start",
     "lint": "next lint",
     "generate": "typechain --target=ethers-v5 abis/**/*.json --out-dir src/typechain",
     "copy-contract-deployment": "cp ../changer-private/contract-address-production.json ./src"
