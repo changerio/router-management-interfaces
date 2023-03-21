@@ -34,14 +34,14 @@ const exportPathMap = Object.entries(DEPLOYMENT).reduce((acc, [networkName, data
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  exportPathMap: async function (defaultPathMap) {
+  exportPathMap: async function () {
     return {
       ...exportPathMap,
       "/": { page: "/" },
     };
   },
-  basePath,
-  assetPrefix,
+  basePath: basePath,
+  assetPrefix: assetPrefix,
 };
 
 module.exports = nextConfig;
